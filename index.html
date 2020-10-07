@@ -12,6 +12,25 @@
 	<p>Thank you for visiting the Illinios Tech COVID-19 Survey. Please enter the requested information below to participate in this important survey.</p>
   
     <form action="null" method="post" autocomplete="on">
+	  <ul>
+		  <li>
+		    <label for="name">Full Name:</label>
+		    <input type="text" id="name" placeholder="First Last">
+		  </li>
+		  <li>
+			<label for="CWID">CWID (A number):</label>
+			<input type="text" id="CWID" placeholder="A********">
+		  </li>
+		  <li>
+			<label for="housing">Do you live on or off campus?</label>
+			<select id="housing" name="housing">
+			  <option value="none" selected disabled hidden>Make a selection</option>
+			  <option value="On-campus">On-campus</option>
+			  <option value="Off-campus">Off-campus</option>
+			</select>
+		  </li>
+	  </ul>
+	  <input class = "submit" type="submit" value="Begin Survey">
 	</form>
   </body>
 </html>
