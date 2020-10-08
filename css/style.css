@@ -5,6 +5,7 @@ body {
   font-size: 1.188em;
   text-align: center;
   background-color: #cc0000;
+  padding: 15px;
 }
 h1 {
   font-family: "Roboto Slab", serif;
@@ -13,16 +14,23 @@ h1 {
 }
 p {
   font-size: 1.188em;
+  padding: 16px;
 }
 label {
   font-size: 1.583em;
 }
 li {
+  padding: 10px;
 }
 input {
   text-align: center;
+  width: 75%;
+  margin: 10px 0;
+  padding: 20px;
 }
 select {
+  padding: 2.5px;
+  margin: 15px;
 }
 img {
   padding: 25px;
