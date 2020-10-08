@@ -2,16 +2,24 @@ html {
   padding: .75em .09375em;
 }
 body {
+  font-size: 1.188em;
+  text-align: center;
 }
 h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2.813em;
+  font-style: bold;
 }
 p {
+  font-size: 1.188em;
 }
 label {
+  font-size: 1.583em;
 }
 li {
 }
 input {
+  text-align: center;
 }
 select {
 }
