@@ -34,6 +34,13 @@ select {
   padding: 2.5px;
   margin: 15px;
 }
+.submit {
+  text-align: center;
+  background-color: #dbdbdb;
+}
+.submit:hover {
+  background-color: white;
+}
 img {
   padding: 25px;
   width: 25%;
