@@ -61,15 +61,15 @@ img {
   }
   input {
     text-align: left;
-	width: 50%;
-	padding: 25px 50px;
-	border-style: dashed;
-	border-color: #222222;
-	border-width: 5px;
+    width: 50%;
+    padding: 25px 50px;
+    border-style: dashed;
+    border-color: #222222;
+    border-width: 5px;
   }
   .submit {
-	border-style: solid;
-	border-color: #222222;
+    border-style: solid;
+    border-color: #222222;
   }
   img {
     padding: 85px;
@@ -81,17 +81,17 @@ img {
     padding-top: 0px;
   }
   h1 {
-	font-size: 2.813em;
+    font-size: 2.813em;
   }
   label {
-	font-size: 2.11em;
+    font-size: 2.11em;
   }
   p {
-	font-size: 1.583em;
+    font-size: 1.583em;
   }
   img {
-	padding: 75px;
-	width: 15%;
-	height: auto;
+    padding: 75px;
+    width: 15%;
+    height: auto;
   }
 }
