@@ -41,6 +41,7 @@ select {
 .submit {
   text-align: center;
   background-color: #dbdbdb;
+  cursor: pointer;
 }
 .submit:hover {
   background-color: white;
