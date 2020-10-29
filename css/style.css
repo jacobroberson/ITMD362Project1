@@ -22,15 +22,19 @@ p {
 }
 label {
   font-size: 1.583em;
+  display: block;
+  width: 97%;
+  margin: 0 1.5%
 }
 li {
   padding: 10px;
 }
 input {
+  box-sizing: border-box;
   text-align: center;
-  width: 75%;
-  margin: 10px 0;
-  padding: 20px;
+  width: 97%;
+  margin: 8px 1.5%;
+  padding: 12px 20px;
   border-style: solid;
   border-radius: 20px 20px 20px 20px;
 }
@@ -53,6 +57,11 @@ img {
 }
 
 @media screen and (min-width: 667px){
+   #container {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 100%;
+  }
   body {
     padding-top: 75px;
   }
@@ -77,6 +86,9 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
+  #container {
+    width: 75%;
+  }
   body {
     padding-top: 0px;
   }
